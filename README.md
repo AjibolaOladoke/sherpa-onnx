@@ -713,3 +713,11 @@ Compiled and maintained from upstream [k2-fsa/sherpa-onnx](https://github.com/k2
 ---
 
 Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
+
+## Sources
+
+Compiled and maintained from upstream [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
