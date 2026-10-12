@@ -6,7 +6,7 @@ A practical reference entry for product and engineering: the sherpa-onnx notes, 
 
 ## Images
 
-[![sherpa-onnx](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![sherpa-onnx](images/preview.png)](https://github.com/Swift-Tech-Co/sherpa-onnx)
 
 ## Introduction
 
@@ -187,12 +187,11 @@ We also have spaces built using WebAssembly. They are listed below:
 
 Please see
 
-  - https://www.swifttechco.com
-  - https://www.swifttechco.com
-  - https://www.swifttechco.com
+  - https://github.com/Swift-Tech-Co/sherpa-onnx
+  - https://github.com/Swift-Tech-Co/sherpa-onnx
+  - https://github.com/Swift-Tech-Co/sherpa-onnx
 
 for more models. The following table lists only **SOME** of them.
-
 
 |Name | Supported Languages| Description|
 |-----|-----|----|
@@ -205,24 +204,23 @@ for more models. The following table lists only **SOME** of them.
 
 </details>
 
-
 #### Some pre-trained ASR models (Non-Streaming)
 
 <details>
 
 Please see
 
-  - https://www.swifttechco.com
-  - https://www.swifttechco.com
-  - https://www.swifttechco.com
-  - https://www.swifttechco.com
-  - https://www.swifttechco.com
+  - https://github.com/Swift-Tech-Co/sherpa-onnx
+  - https://github.com/Swift-Tech-Co/sherpa-onnx
+  - https://github.com/Swift-Tech-Co/sherpa-onnx
+  - https://github.com/Swift-Tech-Co/sherpa-onnx
+  - https://github.com/Swift-Tech-Co/sherpa-onnx
 
 for more models. The following table lists only **SOME** of them.
 
 |Name | Supported Languages| Description|
 |-----|-----|----|
-|sherpa-onnx-nemo-parakeet-tdt-0.6b-v2-int8| English | It is converted from https://www.swifttechco.com|
+|sherpa-onnx-nemo-parakeet-tdt-0.6b-v2-int8| English | It is converted from https://github.com/Swift-Tech-Co/sherpa-onnx|
 |Whisper tiny.en|English| See also|
 |[Moonshine tiny][Moonshine tiny]|English|See also|
 |sherpa-onnx-zipformer-ctc-zh-int8-2025-07-03|Chinese| A Zipformer CTC model|
@@ -240,17 +238,16 @@ for more models. The following table lists only **SOME** of them.
 
 ### Useful links
 
-- Documentation: https://www.swifttechco.com
-- Bilibili 演示视频: https://www.swifttechco.com
+- Documentation: https://github.com/Swift-Tech-Co/sherpa-onnx
+- Bilibili 演示视频: https://github.com/Swift-Tech-Co/sherpa-onnx
 
 ### How to reach us
 
 Please see
-https://www.swifttechco.com
+https://github.com/Swift-Tech-Co/sherpa-onnx
 for 新一代 Kaldi **微信交流群** and **QQ 交流群**.
 
 ## Projects using sherpa-onnx
-
 
 > React Native wrapper and demo app for validating sherpa-onnx on iOS,
 > Android, and Web, including ASR, TTS, VAD, KWS, speaker ID, diarization,
@@ -296,20 +293,19 @@ for 新一代 Kaldi **微信交流群** and **QQ 交流群**.
 
 | 1 | 2 | 3 |
 |---|---|---|
-|[![](https://github.com/user-attachments/assets/1cdbc057-b893-4de6-9e9c-f1d7dfd1d992)](https://www.swifttechco.com)|[![](https://github.com/user-attachments/assets/d77cd98e-b057-442f-860d-d5befd5c769b)](https://www.swifttechco.com)|[![](https://github.com/user-attachments/assets/57e546bf-3d39-45b9-b392-b48ca4fb3c58)](https://www.swifttechco.com)|
+|[![](https://github.com/user-attachments/assets/1cdbc057-b893-4de6-9e9c-f1d7dfd1d992)](https://github.com/Swift-Tech-Co/sherpa-onnx)|[![](https://github.com/user-attachments/assets/d77cd98e-b057-442f-860d-d5befd5c769b)](https://github.com/Swift-Tech-Co/sherpa-onnx)|[![](https://github.com/user-attachments/assets/57e546bf-3d39-45b9-b392-b48ca4fb3c58)](https://github.com/Swift-Tech-Co/sherpa-onnx)|
 
 ### Open-LLM-VTuber
 
 Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking
 face running locally across platforms
 
-See also https://www.swifttechco.com
+See also https://github.com/Swift-Tech-Co/sherpa-onnx
 
 ### voiceapi
 
 <details>
   <summary>Streaming ASR and TTS based on FastAPI</summary>
-
 
 It shows how to use the ASR and TTS Python APIs with FastAPI.
 </details>
@@ -389,7 +385,7 @@ showing how the author tried to use AI so he can have a conversation with Paimon
 It uses sherpa-onnx for speech-to-text and text-to-speech.
 |1|
 |---|
-|[![](https://github.com/user-attachments/assets/f6eea2d5-1807-42cb-9160-be8da2971e1f)](https://www.swifttechco.com)|
+|[![](https://github.com/user-attachments/assets/f6eea2d5-1807-42cb-9160-be8da2971e1f)](https://github.com/Swift-Tech-Co/sherpa-onnx)|
 
 ### TtsReader - Desktop application
 
@@ -402,7 +398,7 @@ A desktop text-to-speech application built using Kotlin Multiplatform.
 > any pair of smart glasses.
 
 It uses sherpa-onnx for real-time speech recognition on iOS and Android devices.
-See also https://www.swifttechco.com
+See also https://github.com/Swift-Tech-Co/sherpa-onnx
 
 It uses Swift for iOS and Java for Android.
 
@@ -492,11 +488,9 @@ making it easy to match supported sherpa-onnx models to different hardware.
 
 > The Android App (version `>= 12.14.1 (2026.07.28)`) uses `sherpa-onnx` Kotlin API for keyword spotting.
 
-
 ### China Life 中国人寿 App
 
 > The Android App (version `>= 3.5.46 (2026.03.23)`) uses `sherpa-onnx` Kotlin API for keyword spotting.
-
 
 ### deepseek-harness
 
@@ -504,176 +498,176 @@ making it easy to match supported sherpa-onnx models to different hardware.
 > the JavaScript npm package [sherpa-onnx-node][sherpa-onnx-node] with SenseVoice
 for local speech recognition.
 
-[sherpa-onnx-node]: https://www.swifttechco.com
-[silero-vad]: https://www.swifttechco.com
-[Raspberry Pi]: https://www.swifttechco.com
-[RV1126]: https://www.swifttechco.com
-[LicheePi4A]: https://www.swifttechco.com
-[VisionFive 2]: https://www.swifttechco.com
-[旭日X3派]: https://www.swifttechco.com
-[爱芯派]: https://www.swifttechco.com
-[hf-space-speaker-diarization]: https://www.swifttechco.com
-[hf-space-speaker-diarization-cn]: https://www.swifttechco.com
-[hf-space-asr]: https://www.swifttechco.com
-[hf-space-asr-cn]: https://www.swifttechco.com
-[Whisper]: https://www.swifttechco.com
-[hf-space-asr-whisper]: https://www.swifttechco.com
-[hf-space-asr-whisper-cn]: https://www.swifttechco.com
-[hf-space-tts]: https://www.swifttechco.com
-[hf-space-tts-cn]: https://www.swifttechco.com
-[hf-space-subtitle]: https://www.swifttechco.com
-[hf-space-subtitle-cn]: https://www.swifttechco.com
-[hf-space-audio-tagging]: https://www.swifttechco.com
-[hf-space-audio-tagging-cn]: https://www.swifttechco.com
-[hf-space-source-separation]: https://www.swifttechco.com
-[hf-space-source-separation-cn]: https://www.swifttechco.com
-[hf-space-slid-whisper]: https://www.swifttechco.com
-[hf-space-slid-whisper-cn]: https://www.swifttechco.com
-[wasm-hf-vad]: https://www.swifttechco.com
-[wasm-ms-vad]: https://www.swifttechco.com
-[wasm-hf-streaming-asr-zh-en-zipformer]: https://www.swifttechco.com
-[wasm-ms-streaming-asr-zh-en-zipformer]: https://www.swifttechco.com
-[wasm-hf-streaming-asr-zh-en-paraformer]: https://www.swifttechco.com
-[wasm-ms-streaming-asr-zh-en-paraformer]: https://www.swifttechco.com
-[Paraformer-large]: https://www.swifttechco.com
-[wasm-hf-streaming-asr-zh-en-yue-paraformer]: https://www.swifttechco.com
-[wasm-ms-streaming-asr-zh-en-yue-paraformer]: https://www.swifttechco.com
-[wasm-hf-streaming-asr-en-zipformer]: https://www.swifttechco.com
-[wasm-ms-streaming-asr-en-zipformer]: https://www.swifttechco.com
-[SenseVoice]: https://www.swifttechco.com
-[wasm-hf-vad-asr-zh-zipformer-ctc-07-03]: https://www.swifttechco.com
-[wasm-ms-vad-asr-zh-zipformer-ctc-07-03]: https://www.swifttechco.com
-[wasm-hf-vad-asr-zh-en-ko-ja-yue-sense-voice]: https://www.swifttechco.com
-[wasm-ms-vad-asr-zh-en-ko-ja-yue-sense-voice]: https://www.swifttechco.com
-[wasm-hf-vad-asr-en-whisper-tiny-en]: https://www.swifttechco.com
-[wasm-ms-vad-asr-en-whisper-tiny-en]: https://www.swifttechco.com
-[wasm-hf-vad-asr-en-moonshine-tiny-en]: https://www.swifttechco.com
-[wasm-ms-vad-asr-en-moonshine-tiny-en]: https://www.swifttechco.com
-[wasm-hf-vad-asr-en-zipformer-gigaspeech]: https://www.swifttechco.com
-[wasm-ms-vad-asr-en-zipformer-gigaspeech]: https://www.swifttechco.com
-[wasm-hf-vad-asr-zh-zipformer-wenetspeech]: https://www.swifttechco.com
-[wasm-ms-vad-asr-zh-zipformer-wenetspeech]: https://www.swifttechco.com
-[reazonspeech]: https://www.swifttechco.com
-[wasm-hf-vad-asr-ja-zipformer-reazonspeech]: https://www.swifttechco.com
-[wasm-ms-vad-asr-ja-zipformer-reazonspeech]: https://www.swifttechco.com
-[gigaspeech2]: https://www.swifttechco.com
-[wasm-hf-vad-asr-th-zipformer-gigaspeech2]: https://www.swifttechco.com
-[wasm-ms-vad-asr-th-zipformer-gigaspeech2]: https://www.swifttechco.com
-[telespeech-asr]: https://www.swifttechco.com
-[wasm-hf-vad-asr-zh-telespeech]: https://www.swifttechco.com
-[wasm-ms-vad-asr-zh-telespeech]: https://www.swifttechco.com
-[wasm-hf-vad-asr-zh-en-paraformer-large]: https://www.swifttechco.com
-[wasm-ms-vad-asr-zh-en-paraformer-large]: https://www.swifttechco.com
-[wasm-hf-vad-asr-zh-en-paraformer-small]: https://www.swifttechco.com
-[wasm-ms-vad-asr-zh-en-paraformer-small]: https://www.swifttechco.com
-[dolphin]: https://www.swifttechco.com
-[wasm-ms-vad-asr-multi-lang-dolphin-base]: https://www.swifttechco.com
-[wasm-hf-vad-asr-multi-lang-dolphin-base]: https://www.swifttechco.com
+[sherpa-onnx-node]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[silero-vad]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[Raspberry Pi]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[RV1126]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[LicheePi4A]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[VisionFive 2]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[旭日X3派]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[爱芯派]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-speaker-diarization]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-speaker-diarization-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-asr]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-asr-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[Whisper]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-asr-whisper]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-asr-whisper-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-tts]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-tts-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-subtitle]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-subtitle-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-audio-tagging]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-audio-tagging-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-source-separation]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-source-separation-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-slid-whisper]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[hf-space-slid-whisper-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-streaming-asr-zh-en-zipformer]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-streaming-asr-zh-en-zipformer]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-streaming-asr-zh-en-paraformer]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-streaming-asr-zh-en-paraformer]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[Paraformer-large]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-streaming-asr-zh-en-yue-paraformer]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-streaming-asr-zh-en-yue-paraformer]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-streaming-asr-en-zipformer]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-streaming-asr-en-zipformer]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[SenseVoice]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-zh-zipformer-ctc-07-03]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-zh-zipformer-ctc-07-03]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-zh-en-ko-ja-yue-sense-voice]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-zh-en-ko-ja-yue-sense-voice]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-en-whisper-tiny-en]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-en-whisper-tiny-en]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-en-moonshine-tiny-en]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-en-moonshine-tiny-en]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-en-zipformer-gigaspeech]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-en-zipformer-gigaspeech]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-zh-zipformer-wenetspeech]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-zh-zipformer-wenetspeech]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[reazonspeech]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-ja-zipformer-reazonspeech]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-ja-zipformer-reazonspeech]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[gigaspeech2]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-th-zipformer-gigaspeech2]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-th-zipformer-gigaspeech2]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[telespeech-asr]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-zh-telespeech]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-zh-telespeech]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-zh-en-paraformer-large]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-zh-en-paraformer-large]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-zh-en-paraformer-small]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-zh-en-paraformer-small]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[dolphin]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-vad-asr-multi-lang-dolphin-base]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-vad-asr-multi-lang-dolphin-base]: https://github.com/Swift-Tech-Co/sherpa-onnx
 
-[wasm-hf-tts-matcha-zh-en]: https://www.swifttechco.com
-[wasm-hf-tts-matcha-zh]: https://www.swifttechco.com
-[wasm-ms-tts-matcha-zh-en]: https://www.swifttechco.com
-[wasm-ms-tts-matcha-zh]: https://www.swifttechco.com
-[wasm-hf-tts-matcha-en]: https://www.swifttechco.com
-[wasm-ms-tts-matcha-en]: https://www.swifttechco.com
-[wasm-hf-tts-piper-en]: https://www.swifttechco.com
-[wasm-ms-tts-piper-en]: https://www.swifttechco.com
-[wasm-hf-tts-piper-de]: https://www.swifttechco.com
-[wasm-ms-tts-piper-de]: https://www.swifttechco.com
-[wasm-hf-speaker-diarization]: https://www.swifttechco.com
-[wasm-ms-speaker-diarization]: https://www.swifttechco.com
-[wasm-hf-voice-cloning-zipvoice]: https://www.swifttechco.com
-[wasm-ms-voice-cloning-zipvoice]: https://www.swifttechco.com
-[wasm-hf-voice-cloning-pocket]: https://www.swifttechco.com
-[wasm-ms-voice-cloning-pocket]: https://www.swifttechco.com
-[apk-speaker-diarization]: https://www.swifttechco.com
-[apk-speaker-diarization-cn]: https://www.swifttechco.com
-[apk-streaming-asr]: https://www.swifttechco.com
-[apk-streaming-asr-cn]: https://www.swifttechco.com
-[apk-simula-streaming-asr]: https://www.swifttechco.com
-[apk-simula-streaming-asr-cn]: https://www.swifttechco.com
-[apk-tts]: https://www.swifttechco.com
-[apk-tts-cn]: https://www.swifttechco.com
-[apk-vad]: https://www.swifttechco.com
-[apk-vad-cn]: https://www.swifttechco.com
-[apk-vad-asr]: https://www.swifttechco.com
-[apk-vad-asr-cn]: https://www.swifttechco.com
-[apk-2pass]: https://www.swifttechco.com
-[apk-2pass-cn]: https://www.swifttechco.com
-[apk-at]: https://www.swifttechco.com
-[apk-at-cn]: https://www.swifttechco.com
-[apk-at-wearos]: https://www.swifttechco.com
-[apk-at-wearos-cn]: https://www.swifttechco.com
-[apk-sid]: https://www.swifttechco.com
-[apk-sid-cn]: https://www.swifttechco.com
-[apk-slid]: https://www.swifttechco.com
-[apk-slid-cn]: https://www.swifttechco.com
-[apk-kws]: https://www.swifttechco.com
-[apk-kws-cn]: https://www.swifttechco.com
-[apk-flutter-streaming-asr]: https://www.swifttechco.com
-[apk-flutter-streaming-asr-cn]: https://www.swifttechco.com
-[flutter-tts-android]: https://www.swifttechco.com
-[flutter-tts-android-cn]: https://www.swifttechco.com
-[flutter-tts-linux]: https://www.swifttechco.com
-[flutter-tts-linux-cn]: https://www.swifttechco.com
-[flutter-tts-macos-x64]: https://www.swifttechco.com
-[flutter-tts-macos-arm64-cn]: https://www.swifttechco.com
-[flutter-tts-macos-arm64]: https://www.swifttechco.com
-[flutter-tts-macos-x64-cn]: https://www.swifttechco.com
-[flutter-tts-win-x64]: https://www.swifttechco.com
-[flutter-tts-win-x64-cn]: https://www.swifttechco.com
-[lazarus-subtitle]: https://www.swifttechco.com
-[lazarus-subtitle-cn]: https://www.swifttechco.com
-[asr-models]: https://www.swifttechco.com
-[tts-models]: https://www.swifttechco.com
-[vad-models]: https://www.swifttechco.com
-[kws-models]: https://www.swifttechco.com
-[at-models]: https://www.swifttechco.com
-[sid-models]: https://www.swifttechco.com
-[slid-models]: https://www.swifttechco.com
-[punct-models]: https://www.swifttechco.com
-[speaker-segmentation-models]: https://www.swifttechco.com
-[GigaSpeech]: https://www.swifttechco.com
-[WenetSpeech]: https://www.swifttechco.com
-[sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20]: https://www.swifttechco.com
-[sherpa-onnx-streaming-zipformer-small-bilingual-zh-en-2023-02-16]: https://www.swifttechco.com
-[sherpa-onnx-streaming-zipformer-korean-2024-06-16]: https://www.swifttechco.com
-[sherpa-onnx-streaming-zipformer-zh-14M-2023-02-23]: https://www.swifttechco.com
-[sherpa-onnx-streaming-zipformer-en-20M-2023-02-17]: https://www.swifttechco.com
-[sherpa-onnx-zipformer-ja-reazonspeech-2024-08-01]: https://www.swifttechco.com
-[sherpa-onnx-zipformer-ru-2024-09-18]: https://www.swifttechco.com
-[sherpa-onnx-zipformer-korean-2024-06-24]: https://www.swifttechco.com
-[sherpa-onnx-zipformer-thai-2024-06-20]: https://www.swifttechco.com
-[sherpa-onnx-nemo-transducer-giga-am-russian-2024-10-24]: https://www.swifttechco.com
-[sherpa-onnx-paraformer-zh-2024-03-09]: https://www.swifttechco.com
-[sherpa-onnx-nemo-ctc-giga-am-russian-2024-10-24]: https://www.swifttechco.com
-[sherpa-onnx-telespeech-ctc-int8-zh-2024-06-04]: https://www.swifttechco.com
-[sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17]: https://www.swifttechco.com
-[sherpa-onnx-streaming-zipformer-fr-2023-04-14]: https://www.swifttechco.com
-[Moonshine tiny]: https://www.swifttechco.com
-[NVIDIA Jetson Orin NX]: https://www.swifttechco.com
-[NVIDIA Jetson Nano B01]: https://www.swifttechco.com
-[speech-enhancement-models]: https://www.swifttechco.com
-[source-separation-models]: https://www.swifttechco.com
-[RK3588]: https://www.swifttechco.com
-[spleeter]: https://www.swifttechco.com
-[UVR]: https://www.swifttechco.com
-[gtcrn]: https://www.swifttechco.com
-[tts-url]: https://www.swifttechco.com
-[ss-url]: https://www.swifttechco.com
-[sd-url]: https://www.swifttechco.com
-[slid-url]: https://www.swifttechco.com
-[at-url]: https://www.swifttechco.com
-[vad-url]: https://www.swifttechco.com
-[kws-url]: https://www.swifttechco.com
-[punct-url]: https://www.swifttechco.com
-[se-url]: https://www.swifttechco.com
-[rknpu-doc]: https://www.swifttechco.com
-[qnn-doc]: https://www.swifttechco.com
-[ascend-doc]: https://www.swifttechco.com
-[axera-npu]: https://www.swifttechco.com
-[SpacemiT-K1]: https://www.swifttechco.com
-[SpacemiT-K3]: https://www.swifttechco.com
+[wasm-hf-tts-matcha-zh-en]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-tts-matcha-zh]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-tts-matcha-zh-en]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-tts-matcha-zh]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-tts-matcha-en]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-tts-matcha-en]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-tts-piper-en]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-tts-piper-en]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-tts-piper-de]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-tts-piper-de]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-speaker-diarization]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-speaker-diarization]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-voice-cloning-zipvoice]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-voice-cloning-zipvoice]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-hf-voice-cloning-pocket]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[wasm-ms-voice-cloning-pocket]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-speaker-diarization]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-speaker-diarization-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-streaming-asr]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-streaming-asr-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-simula-streaming-asr]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-simula-streaming-asr-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-tts]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-tts-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-vad]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-vad-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-vad-asr]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-vad-asr-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-2pass]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-2pass-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-at]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-at-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-at-wearos]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-at-wearos-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-sid]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-sid-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-slid]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-slid-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-kws]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-kws-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-flutter-streaming-asr]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[apk-flutter-streaming-asr-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[flutter-tts-android]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[flutter-tts-android-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[flutter-tts-linux]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[flutter-tts-linux-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[flutter-tts-macos-x64]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[flutter-tts-macos-arm64-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[flutter-tts-macos-arm64]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[flutter-tts-macos-x64-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[flutter-tts-win-x64]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[flutter-tts-win-x64-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[lazarus-subtitle]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[lazarus-subtitle-cn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[asr-models]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[tts-models]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[vad-models]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[kws-models]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[at-models]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sid-models]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[slid-models]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[punct-models]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[speaker-segmentation-models]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[GigaSpeech]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[WenetSpeech]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-streaming-zipformer-small-bilingual-zh-en-2023-02-16]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-streaming-zipformer-korean-2024-06-16]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-streaming-zipformer-zh-14M-2023-02-23]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-streaming-zipformer-en-20M-2023-02-17]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-zipformer-ja-reazonspeech-2024-08-01]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-zipformer-ru-2024-09-18]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-zipformer-korean-2024-06-24]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-zipformer-thai-2024-06-20]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-nemo-transducer-giga-am-russian-2024-10-24]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-paraformer-zh-2024-03-09]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-nemo-ctc-giga-am-russian-2024-10-24]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-telespeech-ctc-int8-zh-2024-06-04]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sherpa-onnx-streaming-zipformer-fr-2023-04-14]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[Moonshine tiny]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[NVIDIA Jetson Orin NX]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[NVIDIA Jetson Nano B01]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[speech-enhancement-models]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[source-separation-models]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[RK3588]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[spleeter]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[UVR]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[gtcrn]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[tts-url]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[ss-url]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[sd-url]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[slid-url]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[at-url]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[vad-url]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[kws-url]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[punct-url]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[se-url]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[rknpu-doc]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[qnn-doc]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[ascend-doc]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[axera-npu]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[SpacemiT-K1]: https://github.com/Swift-Tech-Co/sherpa-onnx
+[SpacemiT-K3]: https://github.com/Swift-Tech-Co/sherpa-onnx
 
 ---
 
@@ -689,13 +683,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/sherpa-onnx
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
