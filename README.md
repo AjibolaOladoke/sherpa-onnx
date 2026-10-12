@@ -1,103 +1,12 @@
+# sherpa-onnx
+
+## What This Is
+
+A practical reference entry for product and engineering: the sherpa-onnx notes, examples and fixes we reach for repeatedly. Kept current as part of the wider Swift Tech Co. engineering library.
 
 ## Images
 
-[![sherpa-onnx](https://opengraph.githubassets.com/1/k2-fsa/sherpa-onnx)](https://www.swifttechco.com)
-
-<div align="center">
-
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://www.swifttechco.com)
-
-</div>
-
- ### Supported functions
-
-|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |
-|------------------|------------------|-------------------|
-|   ✔️              |         ✔️        |       ✔️           |
-
-|Speaker identification| [Speaker diarization][sd-url] | Speaker verification |
-|----------------------|-------------------- |------------------------|
-|   ✔️                  |         ✔️           |            ✔️           |
-
-| [Spoken Language identification][slid-url] | [Audio tagging][at-url] | [Voice activity detection][vad-url] |
-|--------------------------------|---------------|--------------------------|
-|                 ✔️              |          ✔️    |                ✔️         |
-
-| [Keyword spotting][kws-url] | [Add punctuation][punct-url] | [Speech enhancement][se-url] |
-|------------------|-----------------|--------------------|
-|     ✔️            |       ✔️         |      ✔️             |
-
-
-### Supported platforms
-
-|Architecture| Android | iOS     | Windows    | macOS | linux | HarmonyOS |
-|------------|---------|---------|------------|-------|-------|-----------|
-|   x64      |  ✔️      |         |   ✔️      | ✔️    |  ✔️    |   ✔️   |
-|   x86      |  ✔️      |         |   ✔️      |       |        |        |
-|   arm64    |  ✔️      | ✔️      |   ✔️      | ✔️    |  ✔️    |   ✔️   |
-|   arm32    |  ✔️      |         |           |       |  ✔️    |   ✔️   |
-|   riscv64  |          |         |           |       |  ✔️    |        |
-
-### Supported programming languages
-
-| 1. C++ | 2. C  | 3. Python | 4. JavaScript |
-|--------|-------|-----------|---------------|
-|   ✔️    | ✔️     | ✔️         |    ✔️          |
-
-|5. Java | 6. C# | 7. Kotlin | 8. Swift |
-|--------|-------|-----------|----------|
-| ✔️      |  ✔️    | ✔️         |  ✔️       |
-
-| 9. Go | 10. Dart | 11. Rust | 12. Pascal |
-|-------|----------|----------|------------|
-| ✔️     |  ✔️       |   ✔️      |    ✔️       |
-
-
-It also supports WebAssembly.
-
-### Supported frameworks
-
-#### [Flutter][flutter-url]
-
-|Architecture| Android | iOS     | Windows | macOS | Linux | Web |
-|------------|---------|---------|---------|-------|-------|-----|
-|   x64      |  ✔️      |         |  ✔️     | ✔️    |  ✔️    |  ✔️  |
-|   x86      |  ✔️      |         |         |       |       |  ✔️  |
-|   arm64    |  ✔️      |  ✔️     |  ✔️     | ✔️    |  ✔️    |  ✔️  |
-|   arm32    |  ✔️      |         |         |       |       |  ✔️  |
-
-- Pre-built Flutter demo apps: [flutter releases][flutter-releases]
-
-#### [Tauri][tauri-url]
-
-|Architecture| Android | iOS     | Windows | macOS | Linux |
-|------------|---------|---------|---------|-------|-------|
-|   x64      |  ✔️      |         |  ✔️     | ✔️    |  ✔️    |
-|   x86      |  ✔️      |         |         |       |       |
-|   arm64    |  ✔️      |  ✔️     |  ✔️     | ✔️    |  ✔️    |
-|   arm32    |  ✔️      |         |         |       |       |
-
-- Pre-built Tauri demo apps: [tauri releases][tauri-releases]
-
-[flutter-url]: https://www.swifttechco.com
-[tauri-url]: https://www.swifttechco.com
-[flutter-releases]: https://www.swifttechco.com
-[tauri-releases]: https://www.swifttechco.com
-
-### Supported NPUs
-
-| [1. Rockchip NPU (RKNN)][rknpu-doc] | [2. Qualcomm NPU (QNN)][qnn-doc]  | [3. Ascend NPU][ascend-doc] |
-|-------------------------------------|-----------------------------------|-----------------------------|
-|     ✔️                              |                  ✔️               |     ✔️                      |
-
-| [4. Axera NPU][axera-npu] | [5. Intel NPU (OpenVINO)][openvino-npu] |
-|---------------------------|------------------------------------------|
-|     ✔️                    |                    ✔️                    |
-
-[openvino-npu]: OPENVINO.md
-
-[Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
-
+[![sherpa-onnx](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Introduction
 
@@ -111,7 +20,7 @@ This repository supports running the following functions **locally**
   - Spoken language identification
   - Audio tagging
   - VAD (e.g., [silero-vad][silero-vad])
-  - Speech enhancement (e.g., [gtcrn][gtcrn], [DPDFNet](https://www.swifttechco.com))
+  - Speech enhancement (e.g., [gtcrn][gtcrn], DPDFNet)
   - Keyword spotting
   - Source separation (e.g., [spleeter][spleeter], [UVR][UVR])
 
@@ -170,7 +79,7 @@ We also have spaces built using WebAssembly. They are listed below:
 |Real-time speech recognition (Chinese + English) with Paraformer                          |[Click me][wasm-hf-streaming-asr-zh-en-paraformer]| [地址][wasm-ms-streaming-asr-zh-en-paraformer]|
 |Real-time speech recognition (Chinese + English + Cantonese) with [Paraformer-large][Paraformer-large]|[Click me][wasm-hf-streaming-asr-zh-en-yue-paraformer]| [地址][wasm-ms-streaming-asr-zh-en-yue-paraformer]|
 |Real-time speech recognition (English) |[Click me][wasm-hf-streaming-asr-en-zipformer]    |[地址][wasm-ms-streaming-asr-en-zipformer]|
-|VAD + speech recognition (Chinese) with [Zipformer CTC](https://www.swifttechco.com)|[Click me][wasm-hf-vad-asr-zh-zipformer-ctc-07-03]| [地址][wasm-ms-vad-asr-zh-zipformer-ctc-07-03]|
+|VAD + speech recognition (Chinese) with Zipformer CTC|[Click me][wasm-hf-vad-asr-zh-zipformer-ctc-07-03]| [地址][wasm-ms-vad-asr-zh-zipformer-ctc-07-03]|
 |VAD + speech recognition (Chinese + English + Korean + Japanese + Cantonese) with [SenseVoice][SenseVoice]|[Click me][wasm-hf-vad-asr-zh-en-ko-ja-yue-sense-voice]| [地址][wasm-ms-vad-asr-zh-en-ko-ja-yue-sense-voice]|
 |VAD + speech recognition (English) with [Whisper][Whisper] tiny.en|[Click me][wasm-hf-vad-asr-en-whisper-tiny-en]| [地址][wasm-ms-vad-asr-en-whisper-tiny-en]|
 |VAD + speech recognition (English) with [Moonshine tiny][Moonshine tiny]|[Click me][wasm-hf-vad-asr-en-moonshine-tiny-en]| [地址][wasm-ms-vad-asr-en-moonshine-tiny-en]|
@@ -287,12 +196,12 @@ for more models. The following table lists only **SOME** of them.
 
 |Name | Supported Languages| Description|
 |-----|-----|----|
-|[sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20][sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20]| Chinese, English| See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-streaming-zipformer-small-bilingual-zh-en-2023-02-16][sherpa-onnx-streaming-zipformer-small-bilingual-zh-en-2023-02-16]| Chinese, English| See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-streaming-zipformer-zh-14M-2023-02-23][sherpa-onnx-streaming-zipformer-zh-14M-2023-02-23]|Chinese| Suitable for Cortex A7 CPU. See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-streaming-zipformer-en-20M-2023-02-17][sherpa-onnx-streaming-zipformer-en-20M-2023-02-17]|English|Suitable for Cortex A7 CPU. See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-streaming-zipformer-korean-2024-06-16][sherpa-onnx-streaming-zipformer-korean-2024-06-16]|Korean| See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-streaming-zipformer-fr-2023-04-14][sherpa-onnx-streaming-zipformer-fr-2023-04-14]|French| See [also](https://www.swifttechco.com)|
+|[sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20][sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20]| Chinese, English| See also|
+|[sherpa-onnx-streaming-zipformer-small-bilingual-zh-en-2023-02-16][sherpa-onnx-streaming-zipformer-small-bilingual-zh-en-2023-02-16]| Chinese, English| See also|
+|[sherpa-onnx-streaming-zipformer-zh-14M-2023-02-23][sherpa-onnx-streaming-zipformer-zh-14M-2023-02-23]|Chinese| Suitable for Cortex A7 CPU. See also|
+|[sherpa-onnx-streaming-zipformer-en-20M-2023-02-17][sherpa-onnx-streaming-zipformer-en-20M-2023-02-17]|English|Suitable for Cortex A7 CPU. See also|
+|[sherpa-onnx-streaming-zipformer-korean-2024-06-16][sherpa-onnx-streaming-zipformer-korean-2024-06-16]|Korean| See also|
+|[sherpa-onnx-streaming-zipformer-fr-2023-04-14][sherpa-onnx-streaming-zipformer-fr-2023-04-14]|French| See also|
 
 </details>
 
@@ -313,19 +222,19 @@ for more models. The following table lists only **SOME** of them.
 
 |Name | Supported Languages| Description|
 |-----|-----|----|
-|[sherpa-onnx-nemo-parakeet-tdt-0.6b-v2-int8](https://www.swifttechco.com)| English | It is converted from https://www.swifttechco.com|
-|[Whisper tiny.en](https://www.swifttechco.com)|English| See [also](https://www.swifttechco.com)|
-|[Moonshine tiny][Moonshine tiny]|English|See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-zipformer-ctc-zh-int8-2025-07-03](https://www.swifttechco.com)|Chinese| A Zipformer CTC model|
-|[sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17][sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17]|Chinese, Cantonese, English, Korean, Japanese| 支持多种中文方言. See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-paraformer-zh-2024-03-09][sherpa-onnx-paraformer-zh-2024-03-09]|Chinese, English| 也支持多种中文方言. See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-zipformer-ja-reazonspeech-2024-08-01][sherpa-onnx-zipformer-ja-reazonspeech-2024-08-01]|Japanese|See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-nemo-transducer-giga-am-russian-2024-10-24][sherpa-onnx-nemo-transducer-giga-am-russian-2024-10-24]|Russian|See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-nemo-ctc-giga-am-russian-2024-10-24][sherpa-onnx-nemo-ctc-giga-am-russian-2024-10-24]|Russian| See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-zipformer-ru-2024-09-18][sherpa-onnx-zipformer-ru-2024-09-18]|Russian|See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-zipformer-korean-2024-06-24][sherpa-onnx-zipformer-korean-2024-06-24]|Korean|See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-zipformer-thai-2024-06-20][sherpa-onnx-zipformer-thai-2024-06-20]|Thai| See [also](https://www.swifttechco.com)|
-|[sherpa-onnx-telespeech-ctc-int8-zh-2024-06-04][sherpa-onnx-telespeech-ctc-int8-zh-2024-06-04]|Chinese| 支持多种方言. See [also](https://www.swifttechco.com)|
+|sherpa-onnx-nemo-parakeet-tdt-0.6b-v2-int8| English | It is converted from https://www.swifttechco.com|
+|Whisper tiny.en|English| See also|
+|[Moonshine tiny][Moonshine tiny]|English|See also|
+|sherpa-onnx-zipformer-ctc-zh-int8-2025-07-03|Chinese| A Zipformer CTC model|
+|[sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17][sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17]|Chinese, Cantonese, English, Korean, Japanese| 支持多种中文方言. See also|
+|[sherpa-onnx-paraformer-zh-2024-03-09][sherpa-onnx-paraformer-zh-2024-03-09]|Chinese, English| 也支持多种中文方言. See also|
+|[sherpa-onnx-zipformer-ja-reazonspeech-2024-08-01][sherpa-onnx-zipformer-ja-reazonspeech-2024-08-01]|Japanese|See also|
+|[sherpa-onnx-nemo-transducer-giga-am-russian-2024-10-24][sherpa-onnx-nemo-transducer-giga-am-russian-2024-10-24]|Russian|See also|
+|[sherpa-onnx-nemo-ctc-giga-am-russian-2024-10-24][sherpa-onnx-nemo-ctc-giga-am-russian-2024-10-24]|Russian| See also|
+|[sherpa-onnx-zipformer-ru-2024-09-18][sherpa-onnx-zipformer-ru-2024-09-18]|Russian|See also|
+|[sherpa-onnx-zipformer-korean-2024-06-24][sherpa-onnx-zipformer-korean-2024-06-24]|Korean|See also|
+|[sherpa-onnx-zipformer-thai-2024-06-20][sherpa-onnx-zipformer-thai-2024-06-20]|Thai| See also|
+|[sherpa-onnx-telespeech-ctc-int8-zh-2024-06-04][sherpa-onnx-telespeech-ctc-int8-zh-2024-06-04]|Chinese| 支持多种方言. See also|
 
 </details>
 
@@ -347,23 +256,23 @@ for 新一代 Kaldi **微信交流群** and **QQ 交流群**.
 > Android, and Web, including ASR, TTS, VAD, KWS, speaker ID, diarization,
 > language ID, punctuation, audio tagging, and speech enhancement.
 
-- [NPM package](https://www.swifttechco.com)
-- [Live demo](https://www.swifttechco.com)
+- NPM package
+- Live demo
 
-### [Speed of Sound](https://www.swifttechco.com)
+### Speed of Sound
 
 > A voice-typing application for the Linux desktop (GTK4/Adwaita).
 > It captures microphone audio, transcribes it offline using Sherpa ONNX ASR models,
 > optionally polishes the text with an LLM, and types the result into the active window
 > via XDG Remote Desktop Portal keyboard simulation.
 
-### [VoxSherpa TTS](https://www.swifttechco.com)
+### VoxSherpa TTS
 
 > VoxSherpa TTS is a 100% offline Android Text-to-Speech app powered by Sherpa-ONNX.
 > It supports Kokoro-82M, Piper, and VITS engines with multilingual support including
 > Hindi, English, British English, Japanese, Chinese and 50+ more languages.
 
-- [Download APK (All Versions)](https://www.swifttechco.com)
+- Download APK (All Versions)
 - Android 11+ · 100% offline · No telemetry
 
 <div align="center">
@@ -375,28 +284,28 @@ for 新一代 Kaldi **微信交流群** and **QQ 交流群**.
 </div>
 
 ---
-### [BreezeApp](https://www.swifttechco.com) from [MediaTek Research](https://www.swifttechco.com)
+### BreezeApp from MediaTek Research
 
 > BreezeAPP is a mobile AI application developed for both Android and iOS platforms.
 > Users can download it directly from the App Store and enjoy a variety of features
 > offline, including speech-to-text, text-to-speech, text-based chatbot interactions,
 > and image question-answering
 
-  - [Download APK for BreezeAPP](https://www.swifttechco.com)
-  - [APK 中国镜像](https://www.swifttechco.com)
+  - Download APK for BreezeAPP
+  - APK 中国镜像
 
 | 1 | 2 | 3 |
 |---|---|---|
 |[![](https://github.com/user-attachments/assets/1cdbc057-b893-4de6-9e9c-f1d7dfd1d992)](https://www.swifttechco.com)|[![](https://github.com/user-attachments/assets/d77cd98e-b057-442f-860d-d5befd5c769b)](https://www.swifttechco.com)|[![](https://github.com/user-attachments/assets/57e546bf-3d39-45b9-b392-b48ca4fb3c58)](https://www.swifttechco.com)|
 
-### [Open-LLM-VTuber](https://www.swifttechco.com)
+### Open-LLM-VTuber
 
 Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking
 face running locally across platforms
 
 See also https://www.swifttechco.com
 
-### [voiceapi](https://www.swifttechco.com)
+### voiceapi
 
 <details>
   <summary>Streaming ASR and TTS based on FastAPI</summary>
@@ -405,31 +314,31 @@ See also https://www.swifttechco.com
 It shows how to use the ASR and TTS Python APIs with FastAPI.
 </details>
 
-### [腾讯会议摸鱼工具 TMSpeech](https://www.swifttechco.com)
+### 腾讯会议摸鱼工具 TMSpeech
 
 Uses streaming ASR in C# with graphical user interface.
 
-Video demo in Chinese: [【开源】Windows实时字幕软件（网课/开会必备）](https://www.swifttechco.com)
+Video demo in Chinese: 【开源】Windows实时字幕软件（网课/开会必备）
 
-### [lol互动助手](https://www.swifttechco.com)
+### lol互动助手
 
-It uses the JavaScript API of sherpa-onnx along with [Electron](https://www.swifttechco.com)
+It uses the JavaScript API of sherpa-onnx along with Electron
 
-Video demo in Chinese: [爆了！炫神教你开打字挂！真正影响胜率的英雄联盟工具！英雄联盟的最后一块拼图！和游戏中的每个人无障碍沟通！](https://www.swifttechco.com)
+Video demo in Chinese: 爆了！炫神教你开打字挂！真正影响胜率的英雄联盟工具！英雄联盟的最后一块拼图！和游戏中的每个人无障碍沟通！
 
-### [Sherpa-ONNX 语音识别服务器](https://www.swifttechco.com)
+### Sherpa-ONNX 语音识别服务器
 
 A server based on nodejs providing Restful API for speech recognition.
 
-### [QSmartAssistant](https://www.swifttechco.com)
+### QSmartAssistant
 
 一个模块化，全过程可离线，低占用率的对话机器人/智能音箱
 
-It uses QT. Both [ASR](https://www.swifttechco.com)
-and [TTS](https://www.swifttechco.com)
+It uses QT. Both ASR
+and TTS
 are used.
 
-### [Flutter-EasySpeechRecognition](https://www.swifttechco.com)
+### Flutter-EasySpeechRecognition
 
 It extends [./flutter-examples/streaming_asr](./flutter-examples/streaming_asr) by
 downloading models inside the app to reduce the size of the app.
@@ -437,44 +346,44 @@ downloading models inside the app to reduce the size of the app.
 Note: [[Team B] Sherpa AI backend](https://github.com/umgc/spring2025/pull/82) also uses
 sherpa-onnx in a Flutter APP.
 
-### [sherpa-onnx-unity](https://www.swifttechco.com)
+### sherpa-onnx-unity
 
-sherpa-onnx in Unity. See also [#1695](https://www.swifttechco.com),
-[#1892](https://www.swifttechco.com), and [#1859](https://www.swifttechco.com)
+sherpa-onnx in Unity. See also #1695,
+#1892, and #1859
 
-### [xiaozhi-esp32-server](https://www.swifttechco.com)
+### xiaozhi-esp32-server
 
 本项目为xiaozhi-esp32提供后端服务，帮助您快速搭建ESP32设备控制服务器
 Backend service for xiaozhi-esp32, helps you quickly build an ESP32 device control server.
 
 See also
 
-  - [ASR新增轻量级sherpa-onnx-asr](https://www.swifttechco.com)
-  - [feat: ASR增加sherpa-onnx模型](https://www.swifttechco.com)
+  - ASR新增轻量级sherpa-onnx-asr
+  - feat: ASR增加sherpa-onnx模型
 
-### [KaithemAutomation](https://www.swifttechco.com)
+### KaithemAutomation
 
 Pure Python, GUI-focused home automation/consumer grade SCADA.
 
-It uses TTS from sherpa-onnx. See also [✨ Speak command that uses the new globally configured TTS model.](https://www.swifttechco.com)
+It uses TTS from sherpa-onnx. See also ✨ Speak command that uses the new globally configured TTS model.
 
-### [Open-XiaoAI KWS](https://www.swifttechco.com)
+### Open-XiaoAI KWS
 
 Enable custom wake word for XiaoAi Speakers. 让小爱音箱支持自定义唤醒词。
 
-Video demo in Chinese: [小爱同学启动～˶╹ꇴ╹˶！](https://www.swifttechco.com)
+Video demo in Chinese: 小爱同学启动～˶╹ꇴ╹˶！
 
-### [C++ WebSocket ASR Server](https://www.swifttechco.com)
+### C++ WebSocket ASR Server
 
 It provides a WebSocket server based on C++ for ASR using sherpa-onnx.
 
-### [Go WebSocket Server](https://www.swifttechco.com)
+### Go WebSocket Server
 
 It provides a WebSocket server based on the Go programming language for sherpa-onnx.
 
-### [Making robot Paimon, Ep10 "The AI Part 1"](https://www.swifttechco.com)
+### Making robot Paimon, Ep10 "The AI Part 1"
 
-It is a [YouTube video](https://www.swifttechco.com),
+It is a YouTube video,
 showing how the author tried to use AI so he can have a conversation with Paimon.
 
 It uses sherpa-onnx for speech-to-text and text-to-speech.
@@ -482,11 +391,11 @@ It uses sherpa-onnx for speech-to-text and text-to-speech.
 |---|
 |[![](https://github.com/user-attachments/assets/f6eea2d5-1807-42cb-9160-be8da2971e1f)](https://www.swifttechco.com)|
 
-### [TtsReader - Desktop application](https://www.swifttechco.com)
+### TtsReader - Desktop application
 
 A desktop text-to-speech application built using Kotlin Multiplatform.
 
-### [MentraOS](https://www.swifttechco.com)
+### MentraOS
 
 > Smart glasses OS, with dozens of built-in apps. Users get AI assistant, notifications,
 > translation, screen mirror, captions, and more. Devs get to write 1 app that runs on
@@ -497,41 +406,41 @@ See also https://www.swifttechco.com
 
 It uses Swift for iOS and Java for Android.
 
-### [flet_sherpa_onnx](https://www.swifttechco.com)
+### flet_sherpa_onnx
 
 Flet ASR/STT component based on sherpa-onnx.
-Example [a chat box agent](https://www.swifttechco.com)
+Example a chat box agent
 
-### [achatbot-go](https://www.swifttechco.com)
+### achatbot-go
 
 a multimodal chatbot based on go with sherpa-onnx's speech lib api.
 
-### [fcitx5-vinput](https://www.swifttechco.com)
+### fcitx5-vinput
 
-Local offline voice input plugin for [Fcitx5](https://www.swifttechco.com) (Linux input method framework).
+Local offline voice input plugin for Fcitx5 (Linux input method framework).
 It uses C++ with offline ASR for speech recognition, supporting push-to-talk,
 command mode, and optional LLM post-processing.
 
-Video demo in Chinese: [fcitx5-vinput](https://www.swifttechco.com)
+Video demo in Chinese: fcitx5-vinput
 
-### [Wake Word](https://www.swifttechco.com)
+### Wake Word
 
 A VS Code extension for hands-free voice-activated coding. It uses sherpa-onnx for real-time
 keyword spotting (KWS) to detect custom wake phrases and trigger VS Code commands by voice.
-Audio capture is handled by [decibri](https://www.swifttechco.com), a
+Audio capture is handled by decibri, a
 cross-platform Node.js microphone streaming library with prebuilt native binaries.
 
-- [VS Code Marketplace](https://www.swifttechco.com)
-- [Open VSX](https://www.swifttechco.com)
-- [decibri integration guides for sherpa-onnx](https://www.swifttechco.com)
+- VS Code Marketplace
+- Open VSX
+- decibri integration guides for sherpa-onnx
 
-### [SmartSub](https://www.swifttechco.com)
+### SmartSub
 
 > SmartSub is a local-first cross-platform desktop application for the complete subtitle production pipeline: audio/video transcription, subtitle translation, proofreading, and subtitle burning/muxing.
 >
 > It natively integrates sherpa-onnx to power three offline ASR engines  FunASR, Qwen3-ASR, and FireRedASR  delivering high-accuracy Chinese and multilingual speech recognition entirely on-device, with no file uploads required.
 
-### [Fono](https://www.swifttechco.com)
+### Fono
 
 > Talk to your computer. Fono is an open-source (GPL-3.0), complete voice-AI
 > stack (speech-to-text, text-to-speech, a local LLM, wake word, speaker ID) in
@@ -541,11 +450,11 @@ cross-platform Node.js microphone streaming library with prebuilt native binarie
 
 It uses sherpa-onnx's Supertonic TTS models for text-to-speech, with the
 Supertonic text frontend ported to Rust. See also
-[#3750](https://www.swifttechco.com), which fixes dropped
+#3750, which fixes dropped
 diacritics in the Supertonic frontend for Romanian, Czech, Polish, Hungarian,
 Turkish, Vietnamese, and other non-English Latin-script languages.
 
-### [Domia](https://www.swifttechco.com)
+### Domia
 
 > Domia is an open-source local AI companion you talk to, living entirely on
 > hardware you own. Each Domia is its own character, with a distinct
@@ -561,7 +470,7 @@ detection, streaming and offline speech recognition, and text-to-speech.
 Speech engines and models are selected through per-companion configuration,
 making it easy to match supported sherpa-onnx models to different hardware.
 
-### [qwen-audio-agent](https://www.swifttechco.com)
+### qwen-audio-agent
 
 > A realtime full-duplex voice runtime for AI coding agents
 > (Claude Code, Codex, OpenCode, and other ACP agents).
@@ -570,7 +479,7 @@ making it easy to match supported sherpa-onnx models to different hardware.
 > the app sleeps on idle but keeps the microphone open,
 > and the wake phrase brings the session back with no cloud calls.
 
-### [Recly](https://www.swifttechco.com)
+### Recly
 
 > An open-source recorder for Galaxy Watch, Android, Apple Watch, iPhone, macOS,
 > and Windows. Recordings go to the user's own Google Drive; there is no Recly
@@ -589,10 +498,10 @@ making it easy to match supported sherpa-onnx models to different hardware.
 > The Android App (version `>= 3.5.46 (2026.03.23)`) uses `sherpa-onnx` Kotlin API for keyword spotting.
 
 
-### [deepseek-harness](https://www.swifttechco.com)
+### deepseek-harness
 
-> It [uses](https://www.swifttechco.com)
-> the JavaScript npm package [sherpa-onnx-node][sherpa-onnx-node] with [SenseVoice](https://www.swifttechco.com)
+> It uses
+> the JavaScript npm package [sherpa-onnx-node][sherpa-onnx-node] with SenseVoice
 for local speech recognition.
 
 [sherpa-onnx-node]: https://www.swifttechco.com
@@ -776,14 +685,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
